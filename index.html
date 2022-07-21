@@ -21,12 +21,12 @@
             }
         });
     </script>
-    <a-scene embedded arjs="source:webcam">
+    <a-scene embedded arjs="source:webcam;sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false; ">
         <a-camera locationfinder gps-camera="simulateLatitude:32.070889; simulateLongitude:-81.100594" rotation-reader></a-camera>
         <a-text 
             value="Architecure 101" 
             scale="15 15 15"
-            gps-entity-place="latitude:32.071044;longitude:-81.100976"
+            gps-entity-place="latitude:32.059809;longitude:-81.095388"
             look-at="[gps-camera]"
             align="center"
         >
